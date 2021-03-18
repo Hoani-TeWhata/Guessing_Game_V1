@@ -1,7 +1,8 @@
-target = 50 
+import random
+
+target= random.randint(1,100)
 
 guess = int(input("Please guess the number: "))
-
 
 
 if guess == target:
